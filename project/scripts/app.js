@@ -2,7 +2,7 @@
 (function() {
   'use strict';
 
-  var weatherAPIUrlBase = 'http://api.apixu.com/v1/forecast.json?key=062644d7f98f41c296b103208192801&days=7&q=';
+  var weatherAPIUrlBase = 'http://api.apixu.com/v1/forecast.json?key=' + API_KEY + '&days=7&q=';
 
   var app = {
     isLoading: true,
